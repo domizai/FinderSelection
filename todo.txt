@@ -1,0 +1,10 @@
+FinderSelection
+
+
+TODO List
+
+ - Add more sorting functions. (size, type)
+
+ - Not all mimetypes are supported yet.
+
+ - Make Windows compatible.
