@@ -30,12 +30,12 @@ public class Basic{
 		mySelection = selection.getExtentions();
 		out.println("EXTENTIONS:");
 		printAll( mySelection );
-		// image/jpg
+		// jpg
 		  
 		mySelection = selection.getMimeTypes();
 		out.println("MIMETYPES:");
 		printAll( mySelection );
-		// jpg
+		// image/jpg
 		  
 		mySelection = selection.getNames();
 		out.println("NAMES:");
@@ -46,12 +46,12 @@ public class Basic{
 		out.println("DATES:");
 		printAll( mySelection );
 		// 05/01/2014 16:48:16
-  }
+ 	}
 
 
-  static void printAll(String [] s){
-	  for(int i = 0; i < s.length; i++) out.println( (i+1) +": "+ s[i]);
-	  out.println();
-	}
+ 	static void printAll(String [] s){
+  		for(int i = 0; i < s.length; i++) out.println( (i+1) +": "+ s[i]);
+		out.println();
+  	}
 }
 
